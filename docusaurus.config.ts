@@ -80,9 +80,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'serverManual',
+          sidebarId: 'competitions',
           position: 'left',
-          label: 'Server Manual',
+          label: 'Competitions',
         },
         {
           type: 'docSidebar',
@@ -96,13 +96,12 @@ const config: Config = {
           position: 'left',
           label: 'Papers',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'competitions',
-          position: 'left',
-          label: 'Competitions',
-        },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://rcsoccersim.readthedocs.io/en/latest/',
+          position: 'left',
+          label: 'Server Manual',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
